@@ -15,6 +15,29 @@
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
             }
+            p.s{
+    color: aqua;
+}
+
+            li[class]
+
+            {
+                font-size: 200%;
+            }
+
+            
+            li[class="a"]
+
+            {
+                font-size: 200%;
+            }
+            
+            li[class!="a"]
+
+{
+    font-size: 200%;
+}
+            
         </style>
 
     <title>
@@ -22,11 +45,13 @@
     </title>
     </head>
 
-    <body style="background-color:pink ;">
+
+
+    <body style="background-color:pink ; width: 750px; margin:auto;">
        
-        <h1> welcome </h1>
-        <hr style="border: ;25px">
-        <nav>
+        <h1 style="background-color: blueviolet; text-align: center;"> welcome to my cats website </h1>
+        <hr style="border:25px;">
+        <nav style="background-color: rgb(252, 7, 178) ; padding:20px ; width: 300px;">
            
             <a href="home.html"  ><input type="button" value="home" /></a>
             <a href="photos.html"  > <input type="button" value="photos" /></a>
@@ -39,7 +64,7 @@
 
 
 
-        <dl>
+        <dl style>
 
             <dt><h3>
 Name:kothu
@@ -52,13 +77,27 @@ Name:kothu
 
 
         </dl>
-        <h3 style="color:blue ;">This is my cat,<b>kothu</b></h3>
+
+
+
+        <div style="background-color: rgb(15, 145, 145); height: 500px;">   
+
+
+        <h1 style="color:blue ; font-size: 50px; text-align: center;">Images of <b>kothu</b></h1>
         <div>
-        <img  style="width: 250px; height: 250px;" src="kothu.jpg" title="my cat">
-        <figcaption>my cat</figcaption>
+        <img  style="width: 300px; height: 300px; padding-left: 30px;" src="kothu.jpg" title="my cat">
+        <img  style="width: 250px; height: 250px; padding-left: 30px;" src="kothu.jpg" title="my cat">
+        <img  style="width: 300px; height: 300px; padding-left: 30px;" src="kothu.jpg" title="my cat">
+        <img  style="width: 250px; height: 250px; padding-left: 30px;" src="kothu.jpg" title="my cat">
+   
         </div>
 <a href="kothu.jpg">click to view picture </a>
-<hr>
+
+
+
+
+</div>
+<hr style="border: 25px solid black;">
         <p>this is my cute cat, he is 2 years old  having white fur and cute face</p>
         <!-- imp
 Location of Styles (Levels of Stylesheets)
@@ -94,9 +133,9 @@ relativ
         <h3>Example for lists</h3>
         <ol>
             <li> apple</li>
-        <li>banana</li>
+        <li class="s">banana</li>
         <li> carrot</li>
-        <li>orange</li>
+        <li class="a">orange</li>
         <ol>
             <li> cat</li>
             <li>dog</li>
@@ -129,10 +168,44 @@ relativ
 
 
 
+ <!-- new commit -->
 
 
+flex-start: Items align to the left side of the container.
+flex-end: Items align to the right side of the container.
+center: Items align at the center of the container.
+space-between: Items display with equal spacing between them.
+space-around:
 
 
+flex-start: Items align to the left side of the container.
+flex-end: Items align to the right side of the container.
+center: Items align at the center of the container.
+space-between: Items display with equal spacing between them.
+space-around: Items display with equal spacing around them.
+
+For example, justify-content: flex-end;
+
+
+------------------------------------------------------------
+
+
+align-items to help the frogs get to the bottom of the pond. This CSS property aligns items vertically and accepts the following values:
+
+flex-start: Items align to the top of the container.
+flex-end: Items align to the bottom of the container.
+center: Items align at the vertical center of the container.
+baseline: Items display at the baseline of the container.
+stretch:
+
+---------------------------------------------------------------
+
+The frogs need to get in the same order as their lilypads using flex-direction. This CSS property defines the direction items are placed in the container, and accepts the following values:
+
+    row: Items are placed the same as the text direction.
+    row-reverse: Items are placed opposite to the text direction.
+    column: Items are placed top to bottom.
+    column-reverse: Items are placed bottom to top
 
 
     </body>
