@@ -1,0 +1,202 @@
+ .texas 
+ {text-align: center;
+  
+    background-color: brown;
+    padding: 5px;
+    padding-top: 50px;
+}
+
+
+
+.pos {
+
+  position: fixed;
+
+width: 100%;
+ 
+}
+
+ .pos ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  rgb(0, 0, 0);
+  }
+  
+  .pos   li {
+    float: left;
+  }
+  
+     .pos li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+     .pos li a:hover {
+    background-color: brown;;
+   
+  }
+
+
+  .appli{
+
+    text-align: center;
+    background-color: brown;
+    padding: 20px;
+  
+    
+  }
+
+  .appli h1 {
+    /* text-align: center; */
+/* box-shadow: 10px 10px 26px;
+    margin: 5px;
+    border: 5pt solid black;
+    border-radius: 30px 30px  30px 30px ;
+    width: fit-content;
+    */
+  }
+
+ .appli button {
+ display: inline-block;
+ /* text-align: center; */
+  font-size: 30px;
+  border-radius:30px 30px  30px 30px  ;
+  background-color: black;
+  color: brown;
+  border: 5px double brown;
+  box-shadow: 10% 4% 4% 10%;
+ }
+
+ .appli button a {
+
+text-decoration: none;
+color: rgb(255, 255, 255);
+ }
+
+
+
+.make {
+
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
+}
+
+
+.make h2 {
+  margin: 20px;
+  font-size: 40px;
+}
+
+
+.make p {
+  margin: 20px;
+  font-size: 20px;
+}
+
+
+.ottu {
+  display: flex;
+
+}
+
+
+.imm {
+
+  width: 672px;
+  height: 472px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+  .tacle {
+    padding: 200px;
+    color: aqua;
+  background-image: url(nw.jpg);
+background-size: 100%;
+
+  }
+
+  .tacle h2 {
+    margin: 0;
+    border: 0;
+    padding: 50px;
+    background-color: brown;
+    font-size: 35px;
+    text-align: center;
+    color: black;
+  }
+
+  .tacle p {
+    margin: 0;
+    border: 0;
+    padding-bottom: 50px;
+    background-color: brown;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+  }
+
+
+  .lasti
+  { 
+
+   margin-top: 50px;
+    background-color:#595959;
+   font-size: 50px;
+  }
+
+
+
+
+  .last
+  { 
+    height: 100%;
+    padding: 20px;
+    background-color:#595959;
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+  .last div {
+    padding: 20px;
+    font-size: 20px;
+
+  }
+
+  br {
+    margin-top: 20px;
+  }
+
+
+  .sec {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(99, 15, 15);
+  }
+
+  .ppp {
+    color: rgb(99, 15, 15);
+    text-align: center;
+    font-size: 30px;
+    margin-top:50px ;
+    padding: 30px;
+    background-color: rgb(209, 181, 19);
+  }
